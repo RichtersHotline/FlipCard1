@@ -6,3 +6,32 @@ padding: 0;
 box-sizing:border-box;
 
 }
+.CoinFront {
+display:flex;
+justify-content:center;
+margin:auto;
+position:absolute;
+
+}
+.CoinFront:hover {
+   opacity:0;
+    
+    }
+.CoinBack {
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    }
+    .CoinBack:hover {
+       opacity:0;
+        }
+.Text {
+text-align:center;
+position:relative;
+top:110px;
+right:150px;
+color:white;
+font-size:27px;
+-webkit-text-stroke: black 2px;
+}
